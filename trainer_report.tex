@@ -1,0 +1,93 @@
+% Setting up the document class and required packages
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+% Beginning the document
+\begin{document}
+
+% Defining the main section for the trainer assessment report
+\section*{Trainer Assessment Report}
+% Adding the generation date and time
+\subsection*{Generated on: 08-08-2025 02:25 PM IST}
+% Specifying the trainer details
+\subsection*{Trainer: Priya (ID: TR001)}
+
+% Creating a table for assessment details across all levels
+\begin{longtable}{l l l l l l l l l l l}
+\toprule
+Date of Assessment & L1 TOTAL & L1 AVERAGE & L1 STATUS & L2 TOTAL & L2 AVERAGE & L2 STATUS & L3 TOTAL & L3 AVERAGE & L3 STATUS & Manager Referral \\
+\midrule
+2025-08-06 & 80 & 80.0 & CLEARED & 85 & 85.0 & CLEARED & 90 & 90.0 & CLEARED & John Doe \\
+2025-08-07 & 82 & 82.0 & CLEARED & 88 & 88.0 & CLEARED & 92 & 92.0 & CLEARED & Jane Smith \\
+\bottomrule
+\end{longtable}
+
+% Adding a new page for course details
+\newpage
+
+% Creating a section for course details
+\section*{Course Details}
+
+% Subsection for LEVEL #1 courses
+\subsection*{LEVEL #1}
+\begin{longtable}{l l}
+\toprule
+Course & Name \\
+\midrule
+LEVEL #1 Course #1 & Introduction to Coding \\
+LEVEL #1 Course #2 & Robotics Basics \\
+LEVEL #1 Course #3 & AI Fundamentals \\
+LEVEL #1 Course #4 & 3D Printing \\
+LEVEL #1 Course #5 & Electronics 101 \\
+LEVEL #1 Course #6 & Data Analytics \\
+LEVEL #1 Course #7 & Mechanical Design \\
+LEVEL #1 Course #8 & STEM Project Management \\
+LEVEL #1 Course #9 & Advanced Programming \\
+LEVEL #1 Course #10 & Circuit Design \\
+\bottomrule
+\end{longtable}
+
+% Subsection for LEVEL #2 courses
+\subsection*{LEVEL #2}
+\begin{longtable}{l l}
+\toprule
+Course & Name \\
+\midrule
+LEVEL #2 Course #1 & Advanced Coding Techniques \\
+LEVEL #2 Course #2 & Intermediate Robotics \\
+LEVEL #2 Course #3 & AI Applications \\
+LEVEL #2 Course #4 & 3D Design and Modeling \\
+LEVEL #2 Course #5 & Advanced Electronics \\
+LEVEL #2 Course #6 & Data Science Basics \\
+LEVEL #2 Course #7 & Mechanical Engineering Principles \\
+LEVEL #2 Course #8 & Project Leadership in STEM \\
+LEVEL #2 Course #9 & Software Development \\
+LEVEL #2 Course #10 & Embedded Systems Design \\
+\bottomrule
+\end{longtable}
+
+% Subsection for LEVEL #3 courses
+\subsection*{LEVEL #3}
+\begin{longtable}{l l}
+\toprule
+Course & Name \\
+\midrule
+LEVEL #3 Course #1 & Expert Coding Practices \\
+LEVEL #3 Course #2 & Advanced Robotics Systems \\
+LEVEL #3 Course #3 & Machine Learning Algorithms \\
+LEVEL #3 Course #4 & 3D Manufacturing Technologies \\
+LEVEL #3 Course #5 & Advanced Circuit Analysis \\
+LEVEL #3 Course #6 & Big Data Analytics \\
+LEVEL #3 Course #7 & Advanced Mechanical Systems \\
+LEVEL #3 Course #8 & STEM Innovation Strategies \\
+LEVEL #3 Course #9 & Full Stack Development \\
+LEVEL #3 Course #10 & Internet of Things (IoT) Systems \\
+\bottomrule
+\end{longtable}
+
+% Completing the document
+\end{document}
